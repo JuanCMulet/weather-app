@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(1, 88, 114);
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(4, 74, 96);
+    box-shadow: 0 1px 4px black;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+#searchBar {
+    display: flex;
+    height: 35px;
+    justify-content: center;
+
+}
+
+#cityInput {
+    font-size: 16px;
+    margin-right: 3px;
+    padding: 10px;
+    width: 60%;
+}
+
+#submit {
+    background-color: #059aeb;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: all .5s ease;
+}
+
+#submit:hover {
+    background-color: #0c7ebb;
+}
+
+#weatherData {
+    margin-top: 20px;
+}
